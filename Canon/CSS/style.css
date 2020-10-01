@@ -163,7 +163,7 @@ ul li.active a{
 
 
 .row{
-	text-align: left;
+	text-align: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer-3.jpg");
   	height: 75vh;
   	padding: 50px;
