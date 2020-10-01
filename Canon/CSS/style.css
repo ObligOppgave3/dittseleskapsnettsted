@@ -9,13 +9,18 @@ h1{
   text-transform: uppercase;
 	text-align: center;
 	font-size: 53px;
-    line-height: 58px;
-    padding-top: 10px;    
-    padding-bottom: 10px;
+  line-height: 58px;
+  padding-top: 10px;    
+  padding-bottom: 10px;
+  text-shadow: 3px 3px 4px #000000;
 }
 
 .h1-color-red{
   color: #C00;
+}
+
+p{
+   word-wrap: break-word;
 }
 
 form{
@@ -144,12 +149,29 @@ ul li.active a{
 	transform: translate(-50%,-50%);
 }
 
+.button--medium {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.6s ease;
+  transform: translate(-50%,-50%);
+
+
+}
+
+.button--medium a{
+  text-decoration: none;
+}
+
 .btn{
+  top: 62%;
+  left: 50%;
 	border: 1px solid #fff;
 	padding: 10px 30px;
 	color: #fff;
 	text-decoration: none;
 	transition: 0.6s ease;
+ 
 
 }
 
@@ -161,12 +183,24 @@ ul li.active a{
 
 }
 
+.first-product{
+    text-align: center;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196.jpeg");
+    height: 75vh;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
 
 
 .row{
-	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer-3.jpg");
-  	height: 75vh;
+	 
+    text-align: center;
+    height: 75vh;
   	padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
