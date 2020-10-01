@@ -204,7 +204,8 @@ ul li.active a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-   
+    border-radius: 20px;
+
 
 }
 
