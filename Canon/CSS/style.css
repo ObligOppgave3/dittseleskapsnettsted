@@ -7,10 +7,10 @@
 
 h1{
 	text-align: center;
-	font-size: 64px;
-    line-height: 76px;
-    padding-top: 20px;    
-    padding-bottom: 20px;
+	font-size: 53px;
+    line-height: 58px;
+    padding-top: 10px;    
+    padding-bottom: 10px;
 }
 
 form{
@@ -64,14 +64,13 @@ input[type=text], textarea {
   }
   
  
-  .container {
-    background-color:  #345466;
-    padding: 20px;
-    padding-bottom: 30px;
+  .container-fluid {
+        background-image: url("../EOSR5.png");
+        padding-bottom: 12%;
   }
 
-header{
-	background-image:url(../home-bg.jpg);
+header {
+	background-image: url(../EOSR5.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -160,7 +159,7 @@ ul li.active a{
 
 
 .row{
-	text-align: center;
+	text-align: left;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer-3.jpg");
   	height: 75vh;
   	padding: 50px;
@@ -172,12 +171,14 @@ ul li.active a{
 
 .column-left{
 	float: left;
-
+  width: 50%;
 	
 }
 
 .column-right{
-	float: right;
+  float: right;
+  width: 50%;
+  height: 300px;
 
 }
 
@@ -291,6 +292,7 @@ ul li.active a{
 
 footer{
 	text-align: center;
-	background-color: #DDDBDF;
+  background-color: #DDDBDF;
+  
 	padding:10px;
 }
