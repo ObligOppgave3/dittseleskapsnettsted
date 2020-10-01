@@ -199,7 +199,7 @@ ul li.active a{
     align-items: center;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196.jpeg");
-    height: 75vh;
+    height: 100vh;
     padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,6 +207,22 @@ ul li.active a{
     color: white;
 
 
+
+}
+
+.second-product{
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196.jpeg");
+    height: 100vh;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 
 }
 
@@ -346,7 +362,7 @@ ul li.active a{
 
 footer{
 	text-align: center;
-  background-color: #DDDBDF;
-  
-	padding:10px;
+  background-color: #000;
+  padding:10px;
+  color: white;
 }
