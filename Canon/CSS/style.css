@@ -149,26 +149,6 @@ ul li.active a{
 	transform: translate(-50%,-50%);
 }
 
-.button--medium{
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 40px 2px;
-  cursor: pointer;
-  border-radius: 20px;
-
-
-}
-
-.button--medium a{
-  text-decoration: none;
-}
-
-.button2 {background-color: #008CBA;} /* Blue */
 
 
 
@@ -355,9 +335,8 @@ table{
   padding: 8px;
 }
 
- tr:nth-child(even){background-color: #ddd;}
+ tr:nth-child(even){background-color: #000;}
 
- tr:hover {background-color: #ddd;}
 
  th {
   padding-top: 12px;
