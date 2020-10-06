@@ -5,7 +5,7 @@
 	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
 }
 
-h1{
+h1, h2, h3, h4, h5{
   text-transform: uppercase;
 	text-align: center;
 	font-size: 53px;
@@ -16,16 +16,6 @@ h1{
 }
 
 
-h2{
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 53px;
-  line-height: 58px;
-  padding-top: 10px;    
-  padding-bottom: 10px;
-  text-shadow: 3px 3px 4px #000000;
-
-}
 
 .h1-color-red{
   color: #C00;
@@ -34,6 +24,10 @@ h2{
 p{
     font-size:large;
   }
+
+.circle {
+  list-style-type: circle;
+}  
 
 form{
 	height: 50vh;
