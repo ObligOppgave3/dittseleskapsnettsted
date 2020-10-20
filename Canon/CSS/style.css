@@ -83,6 +83,7 @@ input[type=text], textarea {
   .container-fluid {
         background-image: url("../pics/EOSR5.png");
         padding-bottom: 12%;
+         width: 100%;
   }
 
 header {
@@ -90,6 +91,7 @@ header {
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+   width: 100%;
 }
 
 ul{
@@ -233,6 +235,7 @@ ul li.active a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    width: 100%;
 
 
 
@@ -253,6 +256,7 @@ ul li.active a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+     width: 100%;
 
 }
 
@@ -281,6 +285,7 @@ ul li.active a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+     width: 100%;
 }
 
 
@@ -314,6 +319,7 @@ ul li.active a{
     background-size: cover;
     position: relative;
     color: white;
+     width: 100%;
 
 }
 
@@ -327,6 +333,7 @@ ul li.active a{
     background-size: cover;
     position: relative;
     color: white;
+     width: 100%;
 }
 
 .spesifikasjoner{
@@ -339,6 +346,7 @@ ul li.active a{
     background-size: cover;
     position: relative;
     color: white;
+     width: 100%;
 
 }
 
@@ -356,6 +364,7 @@ ul li.active a{
     background-size: cover;
     position: relative;
     color: white;
+     width: 100%;
 }
 
 .bg-text{
@@ -488,3 +497,8 @@ input[name="r"]{
 #r5:checked ~ .s1{
   margin-left: -80%;
 }
+
+/* Media Queries */
+
+
+
