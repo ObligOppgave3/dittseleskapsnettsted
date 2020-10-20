@@ -81,12 +81,12 @@ input[type=text], textarea {
   
  
   .container-fluid {
-        background-image: url("../EOSR5.png");
+        background-image: url("../pics/EOSR5.png");
         padding-bottom: 12%;
   }
 
 header {
-	background-image: url(../EOSR5.png);
+	background-image: url(../pics/EOSR5.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -226,7 +226,7 @@ ul li.active a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196.jpeg");
     height: 100vh;
     padding: 50px;
     background-position: center;
@@ -246,7 +246,7 @@ ul li.active a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../dimitri-karastelev-o7paS8JK_Zk-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/dimitri-karastelev-o7paS8JK_Zk-unsplash.jpg");
     height: 100vh;
     padding: 50px;
     background-position: center;
@@ -274,7 +274,7 @@ ul li.active a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Canon-Connected.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/Canon-Connected.jpg");
     height: 100vh;
     padding: 50px;
     background-position: center;
@@ -306,7 +306,7 @@ ul li.active a{
 
 .kontakt{
 	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer.jpg");
   	height: 50vh;
   	padding: 50px;
     background-position: center;
@@ -319,7 +319,7 @@ ul li.active a{
 
 .support{
 	text-align: left;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer-2.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer-2.jpg");
   	height: 50vh;
   	padding: 50px;
     background-position: center;
@@ -331,7 +331,7 @@ ul li.active a{
 
 .spesifikasjoner{
 	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer-3.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer-3.jpg");
   	height: 50vh;
   	padding: 50px;
     background-position: center;
@@ -348,7 +348,7 @@ ul li.active a{
     justify-content: center;
     align-items: center;
 	 text-align: center;
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../jason-wong-uBn9T18v4iU-unsplash.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/jason-wong-uBn9T18v4iU-unsplash.jpg");
   	height: 100vh;
   	padding: 50px;
     background-position: center;
