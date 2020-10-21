@@ -83,16 +83,14 @@ input[type=text], textarea {
   .container-fluid {
         background-image: url("../pics/EOSR5.png");
         padding-bottom: 12%;
-         width: 100%;
-  }
+        }
 
 header {
 	background-image: url(../pics/EOSR5.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-   width: 100%;
-}
+  }
 
 ul{
 
@@ -550,7 +548,6 @@ label{
 ul li a:hover{
   background-color: #fff;
   color: #000;
-
 }
 
 
@@ -573,6 +570,8 @@ ul li.active a{
     position: relative;
     margin-top: 40px;
   }
+
+
 
  
 }
