@@ -532,10 +532,13 @@ label{
 
 
 
-   ul li a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 6px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+
+
 
   
    }
