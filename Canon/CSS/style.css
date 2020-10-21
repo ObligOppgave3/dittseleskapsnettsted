@@ -488,17 +488,20 @@ footer{
   width:50%;
 }
 .home .caption h1{
+   text-align: center;
   font-size:42px;
   color: white;
   margin:0;
   
 }
 .home .slide.active .caption h1{
+   text-align: center;
   opacity:0;
   animation: captionText .5s ease forwards;
   animation-delay:1s;
 }
 .home .caption p{
+   text-align: center;
   font-size: 18px;
   margin:15px 0 30px;
   color:  #ffffff;
@@ -581,6 +584,8 @@ footer{
 .home .indicator div.active{
  background-color: #000;
 }
+
+
 
 /*responsive*/
 @media(max-width: 767px){
