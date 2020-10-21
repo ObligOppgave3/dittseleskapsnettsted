@@ -460,6 +460,8 @@ footer{
   background: #fff;
 }
 
+
+
 input[name="r"]{
     position: absolute;
     visibility: hidden;
@@ -571,7 +573,9 @@ ul li.active a{
     position: relative;
     margin-top: 40px;
   }
-
+.mySlides{
+  display: none;
+}
 
 
  
