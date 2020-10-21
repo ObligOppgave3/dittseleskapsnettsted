@@ -537,11 +537,27 @@ label{
      width: 100%;
      padding: 6px;
      background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
 
 
-
-  
-   }
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
 
 
   #toggle:checked + .menu{
