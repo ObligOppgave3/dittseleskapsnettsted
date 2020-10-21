@@ -498,7 +498,65 @@ input[name="r"]{
   margin-left: -80%;
 }
 
+label{
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle{
+  display: none;
+}
+
+
+
 /* Media Queries */
+
+
+@media only screen and (max-width: 641px) {
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+  }
+
+
+
+   ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+   }
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+ 
+}
 
 
 
