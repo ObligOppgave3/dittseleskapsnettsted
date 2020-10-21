@@ -513,6 +513,7 @@ label{
 
 /* Media Queries */
 
+/* Mobil */
 
 @media only screen and (max-width: 641px) {
   label{
@@ -579,6 +580,11 @@ ul li.active a{
 
  
 }
+
+
+
+
+
 
 
 
