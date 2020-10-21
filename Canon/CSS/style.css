@@ -528,16 +528,16 @@ label{
     width: 100%;
     display: none;
     border-bottom: 1px solid #EAEAEB;
-  }
+    }
 
 
 
    ul li{
     display: block;
      width: 100%;
-     padding: 6px;
+     padding: 10px;
      background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
-  }
+    }
 
   ul li a{
   text-decoration: none;
@@ -545,12 +545,12 @@ label{
   padding: 5px 20px;
   border: 1px solid transparent;
   transition: 0.6s ease;
-
 }
 
 ul li a:hover{
   background-color: #fff;
   color: #000;
+
 }
 
 
