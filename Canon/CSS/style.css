@@ -32,7 +32,8 @@ h2{
 }
 
 p{
-    font-size:large;
+    font-size: large;
+    text-align: center;
   }
 
 form{
@@ -95,7 +96,11 @@ header {
   background-image: url(../pics/EOSR5.png);
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
 
 }
 
@@ -266,8 +271,7 @@ ul li.active a{
 
 
 .row{
-	 
-    text-align: left;
+	  text-align: left;
     height: 75vh;
   	padding: 50px;
     background-position: center;
@@ -325,8 +329,8 @@ ul li.active a{
 }
 
 .kontakt{
-	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer.jpg");
+	  text-align: center;
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer.jpg");
   	height: 50vh;
   	padding: 50px;
     background-position: center;
@@ -390,9 +394,10 @@ ul li.active a{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 30%;
+  width: 80%;
   padding: 20px;
   text-align: center;
+  margin: auto;
 }
 
 .tabell-tekst{
@@ -606,11 +611,7 @@ and (max-device-width : 1024px)  {
     display: none;
   }
 
-  header{
-    background-size: cover;
-    width: 1024px;
 
-  }
 
 }
 
@@ -621,6 +622,8 @@ and (max-device-width : 1024px)  {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
+
+
 
     .slider{
     display: none;
@@ -638,11 +641,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media(max-width: 1024px){
 
-   header{
-    background-size: cover;
-    width: 1024px;
 
-  }
 
 
 
