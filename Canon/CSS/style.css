@@ -638,6 +638,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media(max-width: 1024px){
 
+   header{
+    background-size: cover;
+    width: 1024px;
+
+  }
+
 
 
 }
@@ -673,8 +679,8 @@ label{
   .indicator{
     display: none;
   }
-  
-  
+
+
   label{
     display: block;
     cursor: pointer;
