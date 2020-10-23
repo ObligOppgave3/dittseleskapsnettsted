@@ -36,6 +36,13 @@ p{
     text-align: center;
   }
 
+
+  img{
+   width: 100vw;
+   height: auto;
+   padding-top: 20px;
+  }
+
 form{
 	height: 50vh;
 	padding: 20px;
@@ -231,7 +238,22 @@ ul li.active a{
 }
 
 
+.om{
 
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/photographer.jpg");
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
 
 
 .first-product{
@@ -272,12 +294,14 @@ ul li.active a{
 
 
 .row{
-	  text-align: left;
-    height: 75vh;
+	  text-align: center;
+    height: 100vh;
+    width: 100vw;
   	padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     color: white;
 }
 
