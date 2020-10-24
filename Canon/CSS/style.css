@@ -54,9 +54,11 @@ h5{
 }
 
 p{
-    font-size: 2.2em;
+    font-size: 2.0em;
     text-align: center;
-    padding: 20px;
+    line-height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
 
@@ -418,7 +420,6 @@ ul li.active a{
     width: 100vw;
     padding: 50px;
     background-image: url("../pics/EOSR5.png");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -528,7 +529,7 @@ ul li.active a{
   z-index: 2;
   width: 90%;
   height: auto;
-  padding: 20px;
+  padding: 2px;
   text-align: center;
 }
 
@@ -1211,10 +1212,11 @@ ul li.active a{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    header{
-    height: 100vh;
-    width: 100vw;
-  }
+
+ 
+
+
+
 
   .filosofi{
 
@@ -1235,10 +1237,7 @@ ul li.active a{
 }
 
 
-  .connected{
-    height: 100vh;
-    width: 100vw;
-  }
+
 
     .slider{
     display: none;
