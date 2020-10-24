@@ -132,9 +132,11 @@ header {
   background-image: url(../pics/EOSR5.png);
   height: 100vh;
   width: 100vw;
+  justify-content: center;
+  align-items: center;
 	background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 
 
@@ -416,12 +418,16 @@ ul li.active a{
 
 .inspirert {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     padding: 50px;
     background-image: url("../pics/EOSR5.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -2382,6 +2388,834 @@ ul li.active a{
 
 
  
+}
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+
+p{
+    font-size: 2.0em;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+      header{
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  .connected{
+    height: 100vh;
+    width: 100vw;
+  }
+
+    .slider{
+    display: none;
+  }
+  .controls{
+    display: none;
+  }
+
+  .indicator{
+    display: none;
+  }
+
+
+  label{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    border-bottom: 1px solid #EAEAEB;
+    }
+
+
+
+   ul li{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    }
+
+  ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+  #toggle:checked + .menu{
+    display: block;
+
+  }
+
+  .btn{
+    padding: 5px 15px;
+  }
+
+  .youtubeButton{
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+
+
 }
 
 
