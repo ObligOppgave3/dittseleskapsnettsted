@@ -273,6 +273,7 @@ ul li.active a{
     height: 100vh;
     width: 100vw;
     padding-top: 50px;
+    padding-bottom: 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,14 +300,13 @@ ul li.active a{
 }
 
 .filosofi{
-
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
     width: 100vw;
-    padding-top: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -352,6 +352,17 @@ ul li.active a{
 
 }
 
+.column{
+  float: left;
+  width: 50%;
+  
+}
+
+.column h1{
+  text-align: center;
+}
+
+
 
 
 .row{
@@ -364,6 +375,12 @@ ul li.active a{
     background-size: cover;
     background-color: black;
     color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .connected{
@@ -396,21 +413,6 @@ ul li.active a{
 
 
 
-.column-left{
-	float: left;
-  width: 50%;
-	
-}
-
-.column-right{
-  float: right;
-  width: 50%;
-  height: 300px;
-
-}
-.column-left h1{
-  text-align: center;
-}
 
 .kontakt{
 	  text-align: center;
@@ -526,8 +528,8 @@ table{
 }
 
 footer{
-  height: 50%;
-  width: 100vw;
+  position: relative;
+   width: 100%;
 	text-align: center;
   background-color: #020202;
   padding:40px;
@@ -693,6 +695,24 @@ and (max-device-width : 1024px)  {
     width: 100vw;
   }
 
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
+
 
 
 
@@ -736,6 +756,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100vw;
   }
 
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
+
 
   .connected{
     height: 100vh;
@@ -768,6 +806,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 100vh;
     width: 100vw;
   }
+
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
 
 
   .connected{
@@ -811,6 +867,24 @@ label{
     height: 100vh;
     width: 100vw;
   }
+
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
 
 
   .connected{
@@ -901,6 +975,24 @@ ul li.active a{
     width: 100vw;
   }
 
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
+
 
   .connected{
     height: 100vh;
@@ -988,6 +1080,24 @@ ul li.active a{
     height: 100vh;
     width: 100vw;
   }
+
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
 
 
   .connected{
@@ -1078,6 +1188,24 @@ ul li.active a{
     height: 100vh;
     width: 100vw;
   }
+
+  .filosofi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
 
 
   .connected{
