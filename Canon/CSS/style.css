@@ -32,8 +32,9 @@ h2{
 }
 
 p{
-    font-size: large;
+    font-size: 1.2em;
     text-align: center;
+    padding: 20px;
   }
 
 
