@@ -27,6 +27,28 @@ h2{
 
 }
 
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.0em;
+
+
+
+}
+
+h4{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.0em;
+
+}
+
+h5{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.0em;
+}
+
 .h1-color-red{
   color: #C00;
 }
@@ -102,8 +124,6 @@ input[type=text], textarea {
 
 header {
   background-image: url(../pics/EOSR5.png);
-	height: 100vh;
-  width: 100vw;
 	background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -435,6 +455,7 @@ ul li.active a{
 	  text-align: center;
 	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/jason-wong-uBn9T18v4iU-unsplash.jpg");
   	height: 100vh;
+    width: 100vw;
   	padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -462,7 +483,6 @@ ul li.active a{
 }
 
 .tabell-tekst{
-
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
@@ -474,7 +494,8 @@ ul li.active a{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 50%;
+  width: 90%;
+  height: auto;
   padding: 20px;
   text-align: center;
 }
@@ -502,7 +523,7 @@ table{
 }
 
 footer{
-  height: 100vh;
+  height: 50%;
   width: 100vw;
 	text-align: center;
   background-color: #020202;
@@ -664,10 +685,12 @@ footer{
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
 
-  header{
+   header{
     height: 100vh;
     width: 100vw;
   }
+
+
 
   .connected{
     height: 100vh;
@@ -776,7 +799,7 @@ label{
 
 
     p{
-      font-size: 1.2em;
+      font-size: 3.2em;
     }
 
     header{
