@@ -30,7 +30,8 @@ h2{
 h3{
   text-transform: uppercase;
   text-align: center;
-  font-size: 3.0em;
+  font-size: 2.5em;
+  padding: 5px;
 
 
 
@@ -39,14 +40,16 @@ h3{
 h4{
   text-transform: uppercase;
   text-align: center;
-  font-size: 3.0em;
+  font-size: 2.5em;
+  padding: 5px;
 
 }
 
 h5{
   text-transform: uppercase;
   text-align: center;
-  font-size: 3.0em;
+  font-size: 2.5em;
+  padding: 5px;
 }
 
 .h1-color-red{
@@ -503,15 +506,14 @@ ul li.active a{
 }
 
 .tabell{
-    word-wrap: break-word;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
 	  text-align: center;
 	  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/jason-wong-uBn9T18v4iU-unsplash.jpg");
-  	height: 100vh;
+  	height: 150vh;
     width: 100vw;
-  	padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -532,11 +534,11 @@ ul li.active a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 3;
   width: 90%;
   height: auto;
-  padding: 2px;
   text-align: center;
+  overflow-x:auto;
 }
 
 table{
