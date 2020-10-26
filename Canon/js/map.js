@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'Your Token key here!'; // This Token Expire in 24 hours
+mapboxgl.accessToken = 'pk.eyJ1IjoibWF4b21peDQiLCJhIjoiY2tnY3ZrOW95MDhvdzJ5czFoNHo3ZGtoMCJ9.VglX7RAvKpxOxeQIVgn5DQ'; // This Token Expire in 24 hours
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(position => {
         var x = 2;
