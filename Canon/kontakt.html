@@ -6,7 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+        <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js" charset="utf-8"></script>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/map.js"></script>
+
         <title>Kontakt</title>
     </head>
 
@@ -17,17 +22,17 @@
                     <img src="pics/logo.png" alt="logo">
 
                 </div>
-                    <nav>
-                        <label  for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle">
-                        <ul class="menu">
-                            <li class="active"> <a href="index.html">Hjem</a></li>
-                            <li> <a href="produkter.html">Produkter</a></li>
-                            <li> <a href="om.html">Om</a></li>
-                            <li> <a href="kontakt.html">Kontakt</a></li>
-                            <li> <a href="sources.html">Kilder</a></li> 
-                        </ul>
-                    </nav>  
+                <nav>
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle">
+                    <ul class="menu">
+                        <li> <a href="index.html">Hjem</a></li>
+                        <li> <a href="produkter.html">Produkter</a></li>
+                        <li> <a href="om.html">Om</a></li>
+                        <li class="active"> <a href="kontakt.html">Kontakt</a></li>
+                        <li> <a href="sources.html">Kilder</a></li>
+                    </ul>
+                </nav>
             </div>
 
 
@@ -45,28 +50,34 @@
         <div class="support">
             <div class="bg-text">
                 <h2>Nedlasting og hjelp</h1>
-                <p>Last ned fastvare til Canon-produktet ditt</p>
+                    <p>Last ned fastvare til Canon-produktet ditt</p>
             </div>
         </div>
 
-            <div class="skjema">
-              <h3>Ta kontakt</h3>
-                    <form>
-                           
+        <div class="skjema">
+            <h3>Ta kontakt</h3>
+            <form>
 
-                        <input type="text" placeholder="Navnet ditt">
-                        <input type="text" placeholder="Etternavnet ditt">
-                        <input type="text" placeholder="Telefonnummer">
-                        <textarea placeholder="Skriv din beskjed her">
+
+                <input type="text" placeholder="Navnet ditt">
+                <input type="text" placeholder="Etternavnet ditt">
+                <input type="text" placeholder="Telefonnummer">
+                <textarea placeholder="Skriv din beskjed her">
                         </textarea>
-                        <input type="submit" value="Send">
+                <input type="submit" value="Send">
 
-                    </form>
-            </div>
+            </form>
+        </div>
+        <div class="map">
+            <h1>Stay connected</h1>
+            <div id="map"></div>
+        </div>
+
         <footer>
             <p> &copy; Canon 21.9.2020</p>
             <p>mail@mail.com</p>
         </footer>
+
 
     </body>
 
